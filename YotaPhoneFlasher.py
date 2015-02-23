@@ -5,6 +5,7 @@ import zipfile
 import ftplib
 import progressbar
 import configparser
+import sys
 
 def currentFirmwarePrint():
     config.read('config.ini')
@@ -29,7 +30,7 @@ def wayChooser():
         ftp.cwd(ftpPath)
         regionChooser()
     elif way == "3":
-        os.system("exit")
+        sys.exit()
     else:
         print ("Please, choose a number")
         wayChooser()
