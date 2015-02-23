@@ -78,18 +78,11 @@ def firmwareChooser(region):
         firmwareChooser(region)
     return firmware
 
-try:
-    config = configparser.ConfigParser()
-    config.read('config.ini')
-    ftpURL   =config['YotaPhoneFlasher']['ftpURL']
-    ftpUser  =config['YotaPhoneFlasher']['ftpUser']
-    ftpPass  =config['YotaPhoneFlasher']['ftpPass']
-    ftpPath=config['YotaPhoneFlasher']['ftpPath']
-except:
-    ftpURL   = "fw.ydevices.com"
-    ftpUser  = "anonymous"
-    ftpPass  = ""
-    ftpPath= "/"
+
+ftpURL   = "fw.ydevices.com"
+ftpUser  = "anonymous"
+ftpPass  = ""
+ftpPath= "/"
 
 
 def ftpDownlaod(firmware,region):
