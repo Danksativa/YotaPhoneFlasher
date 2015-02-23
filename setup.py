@@ -36,7 +36,7 @@ setup(
     package_dir={'YotaPhoneFlasher':
                  'YotaPhoneFlasher'},
     include_package_data=True,
-    install_requires=requirements,
+    install_requires=requires,
     license="BSD",
     zip_safe=False,
     keywords='YotaPhoneFlasher',
