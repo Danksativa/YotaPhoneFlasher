@@ -3,7 +3,7 @@
 __author__ = 'Egor Vasilyev'
 __email__ = 'egor.vasilyev@yotadevices.com'
 __version__ = '0.1.0'
-
+if __name__ == "__main__":
 
 import shutil
 import os
