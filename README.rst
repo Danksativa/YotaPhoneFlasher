@@ -2,19 +2,9 @@
 YotaPhoneFlasher
 ===============================
 
-.. image:: https://img.shields.io/travis/egorvas/YotaPhoneFlasher.svg
-        :target: https://travis-ci.org/egorvas/YotaPhoneFlasher
+How To Run
+-----------
 
-.. image:: https://img.shields.io/pypi/v/YotaPhoneFlasher.svg
-        :target: https://pypi.python.org/pypi/YotaPhoneFlasher
-
-
-YotaPhoneFlasher
-
-* Free software: BSD license
-* Documentation: https://YotaPhoneFlasher.readthedocs.org.
-
-Features
---------
-
-* TODO
+git clone https://github.com/egorvas/YotaPhoneFlasher.git
+pip3 install progressbar
+python3 YotaPhoneFlasher/YotaPhoneFlasher.py
