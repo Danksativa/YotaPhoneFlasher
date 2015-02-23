@@ -14,9 +14,9 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
-requirements = [
-    # TODO: put package requirements here
-]
+requires = [
+            "progressbar"
+            ]
 
 test_requirements = [
     # TODO: put package test requirements here
