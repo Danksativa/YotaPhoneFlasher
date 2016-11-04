@@ -119,7 +119,7 @@ def flash():
     os.system("fastboot flash recovery firmware/recovery.img")
     os.system("fastboot flash cache firmware/cache.img")
     os.system("fastboot flash modem firmware/radio/NON-HLOS.bin")
-    os.system("fastboot flash sbl1 radio/sbl1.mbn")
+    os.system("fastboot flash sbl1  firmware/radio/sbl1.mbn")
     os.system("fastboot flash rpm firmware/radio/rpm.mbn")
     os.system("fastboot flash tz firmware/radio/tz.mbn  ")
     os.system("fastboot flash aboot firmware/emmc_appsboot.mbn")
